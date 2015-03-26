@@ -1,0 +1,5 @@
+﻿{
+    "10": "Funds Transfer",
+    "15": "Foreign Transfer",
+    "16": "Settlement Transfer"
+}

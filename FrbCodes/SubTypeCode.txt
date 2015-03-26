@@ -1,0 +1,11 @@
+﻿{ 
+    "00": "Basic Funds Transfer",
+    "01": "Request for Reversal",
+    "02": "Reversal of Transfer",
+    "07": "Request for Reversal of a Prior Day Transfer",
+    "08": "Reversal of a Prior Day Transfer",
+    "31": "Request for Credit (Drawdown)",
+    "32": "Funds Transfer Honoring a Request for Credit (Drawdown)",
+    "33": "Refusal to Honor a Request for Credit (Drawdown)",
+    "90": "Service Message"
+}
