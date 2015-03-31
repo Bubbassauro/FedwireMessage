@@ -26,6 +26,8 @@ namespace FedwireMessage.FieldFormats
             }
         }
 
+        public string BusinessFunctionDescription { get; set; }
+
         public string TransactionTypeCode
         {
             get

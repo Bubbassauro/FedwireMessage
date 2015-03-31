@@ -40,5 +40,9 @@ namespace FedwireMessage.FieldFormats
                     return "";
             }
         }
+
+        public string TypeDescription { get; set; }
+
+        public string SubtypeDescription { get; set; }
     }
 }

@@ -29,6 +29,8 @@ namespace FedwireMessage.FieldFormats
             }
         }
 
+        public string IdCodeDescription { get; set; }
+
         public string Identifier
         {
             get

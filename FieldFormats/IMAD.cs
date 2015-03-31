@@ -39,7 +39,7 @@ namespace FedwireMessage.FieldFormats
                 DateTime inputCycleDate;
                 if (Value.Length >= 8)
                 {
-                    if (DateTime.TryParseExact(Value.Substring(0, 8), "YYYYMMDD", CultureInfo.InvariantCulture, DateTimeStyles.None, out inputCycleDate))
+                    if (DateTime.TryParseExact(Value.Substring(0, 8), "yyyyMMdd", CultureInfo.InvariantCulture, DateTimeStyles.None, out inputCycleDate))
                         return inputCycleDate;
                 }
                 return null;
